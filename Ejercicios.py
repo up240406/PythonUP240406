@@ -8,7 +8,6 @@ print (type(age), age)
 print (type(hight), hight)
 print (type(numcom), numcom)
 
-#Program 4
 # Write a script that prompts the user to enter base and height 
 # of the trianngle and calculate an area of this triangle
 # (area = 0.5 x b x h). 
@@ -56,3 +55,18 @@ pendiente2 =(Y2 - Y1 / X2 - X1)
 Distancia = ((X2 - X1)** 2 + (Y2 - Y1))** 0.5
 print ("La pendiente de los puntos es:", pendiente2)
 print ("La distancia entre los puntos es:", Distancia)
+ 
+##Calculate the slope, x-intercept and y-intercept of y = 2x -2
+pendiente = 2
+interceptY = -2
+interceptX = interceptY / pendiente
+print("la pendiente de la recta es de :", pendiente)
+print("La interseccion en el eje Y es:", interceptY)
+print(" La interseccion en el eje X es:", interceptX)
+
+#Compare the slopes in tasks 8 and 9.
+print ("La pendiente 1 es de:",pendiente1)
+print ("La pendiente 2 es de :",pendiente2)
+pendiente1 < pendiente2
+if True:
+    print ("La pendiente 1 es menor que la pendiente 2")
