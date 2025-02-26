@@ -1,4 +1,4 @@
 # Metodologia de la programacion
-Universidad Politecnica de Aguascalientes
+## Universidad Politécnica de Aguascalientes
    Erika Diaz de la vega Jimenez
 
