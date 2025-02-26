@@ -70,3 +70,19 @@ print ("La pendiente 2 es de :",pendiente2)
 pendiente1 < pendiente2
 if True:
     print ("La pendiente 1 es menor que la pendiente 2")
+    
+#Calculate the value of y (y = x^2 + 6x + 9).
+#Try to use different x values and figure out at what x value y is going to be 0.
+# Definir la función
+x= int(input("Ingresar el valor de x:" ))
+y= ((x**2)+(6*x)+9)
+print ("El valor de y es :", " ", y)
+if y==0: 
+    print ("y es igual a 0.")
+else: 
+    print ("y no es igual a 0.")
+
+#Find the length of 'python' and 'dragon' and make a falsy comparison statement.
+
+
+#Use and operator to check if 'on' is found in both 'python' and 'dragon
