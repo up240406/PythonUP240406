@@ -65,11 +65,9 @@ print("La interseccion en el eje Y es:", interceptY)
 print(" La interseccion en el eje X es:", interceptX)
 
 # 10 Compare the slopes in tasks 8 and 9.
-print ("La pendiente 1 es de:",pendiente1)
-print ("La pendiente 2 es de :",pendiente2)
-pendiente1 < pendiente2
-if  print ("La pendiente 1 es menor que la pendiente 2")
-    
+print("pendientes son iguales "if pendiente2 == interceptX else "las pendientes son diferentes ")
+print ("La pendiente 1 es menor que la pendiente 2")
+
 # 11 Calculate the value of y (y = x^2 + 6x + 9).
 #Try to use different x values and figure out at what x value y is going to be 0.
 # Definir la función
@@ -90,48 +88,67 @@ print("longitud de dragon", longitud_dragon)
 print("la longitud de pytho no es igual a la longitud de dragon", longitud_python!=longitud_dragon)
 
 # 13 Use and operator to check if 'on' is found in both 'python' and 'dragon
-frase1 = "python"
-frase2 = "dragon"
-resultado = ("on" in frase1 and "on" frase2)
-print(resultado)
+print("on"in "phyton"and "on" in "dragon")
 
 # 14 I hope this course is not full of jargon. Use in operator to check if jargon is in the sentence.
-palabra = "jargon"
-resultado = ("jargon", in palabra)
-print( resultado)
+oracion = "I hope this course is not full in jargon" 
+
 # 15 There is no 'on' in both dragon and python
-frase1 = "pyhton"
-frase2 = "dragon"
-resultado = ("no "on" " in frase1 and "no "on"")
+print("on" not in "phyton" and "on" not in "dragon")
              
 
-
 # 16 Find the length of the text python and convert the value to float and convert it to string
-
-
+print(str(float(len("phyton"))))
 
 
 
 # 17 Even numbers are divisible by 2 and the remainder is zero. How do you check if a number is even or not using python?
-
+num =int(input("coloca un numero: "))
+if num % 2 == 0:
+    print("El numero es par")
+else:
+    print("El numero es impar")
 
 
 
 # 18 Check if the floor division of 7 by 3 is equal to the int converted value of 2.7.
-
+res = 7//3 == int(2.7)
+print(res)
 
 
 
 # 19 Check if type of '10' is equal to type of 10
-
+res = type("10") == type(10)
+print(res)
 
 
 
 # 20 Check if int('9.8') is equal to 10
-
-
-
+res = int("9.8") == 10
+print(res)
 
 
 
 # 21 Writ a script that prompts the user to enter hours and rate per hour. Calculate pay of the person?
+horas = float (input("Coloque horas trabajadas: "))
+Tar = float (input("Ingrese la tarifa: "))
+pagoTotal = horas * Tar
+print ("El pago total es: ", pagoTotal)
+
+#Write a script that prompts the user to enter number of years. 
+# Calculate the number of seconds a person can live. Assume a person can live hundred years
+años = int(input("Ingrese sus años vividos: "))
+AñosM = 100
+segXaños = 365 * 24 * 60 * 60
+if años > AñosM:
+    print("El maximo de años permitidos es {maxAños}. Se va a usar {maxAños} para el calculo")
+    años = AñosM
+seg = años * segXaños
+print("En {años} años una persona puede vivir {seg} segundos.")
+
+#Write a Python script that displays the following table
+print("1 1 1 1 1")
+print("2 1 2 4 8")
+print("3 1 3 9 27")
+print("4 1 4 16 64")
+print("5 1 5 25 125")
