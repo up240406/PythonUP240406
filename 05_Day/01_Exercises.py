@@ -106,39 +106,52 @@ print(fullListCOPY)
 
 #28 The following is a list of 10 students ages:
 ages = [18, 21, 18, 23, 20, 25, 26, 23, 25, 23]
+
+
 #Sort the list and find the min and max age
 ages.sort()
 print("La edad máxima es: ", ages[9])
 print("La edad mínima es: ", ages[0])
+
+
 #Add the min age and the max age again to the list
 ages.append(ages[0])
 ages.append(ages[9])
 print(ages)
+
+
 #Find the median age (one middle item or two middle items divided by two)
 median = (ages[4] + ages[5]) / 2
 print("La mediana es: ", median)
+
+
 #Find the average age (sum of all items divided by their number )
 promedio = sum(ages) / len(ages)
 print("El promedio de edad es: ", promedio)
+
+
 #Find the range of the ages (max minus min)
 range = ages[9] - ages[0]
 print("El rango de edades es: ", range)
+
+
 #Compare the value of (min - average) and (max - average), use abs() method
 comparation = (ages[0] - promedio) - (ages[9] - promedio)
 print("La comparación es: ", comparation)
 
 
+
 #29 Find the middle country(ies) in the countries list
-import countries as countries
-print(len(countries.countries)) 
-n = (len(countries.countries))/2
+import paises as paises
+print(len(paises.countries)) 
+n = (len(paises.countries))/2
 print(n)
 int(n)
-print(countries.countries[int(n-1)]+" , "+countries.countries[int(n)])
+print(paises.countries[int(n-1)]+" , "+ paises.countries[int(n)])
 
 #30 Divide the countries list into two equal lists if it is even if not one more country for the first half.
-P1Lista = countries.countries[0:95]
-P2Lista = countries.countries[96:192]
+P1Lista = paises.countries[0:95]
+P2Lista = paises.countries[96:192]
 print("Lista 1: ", P1Lista)
 print("Lista 2: ", P2Lista)
 
@@ -146,4 +159,3 @@ print("Lista 2: ", P2Lista)
 countries.countries = ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']
 p1, p2, p3, *scandic = countries.countries
 print(*scandic) 
-print("revisado")
