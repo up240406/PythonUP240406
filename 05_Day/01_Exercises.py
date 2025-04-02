@@ -146,3 +146,4 @@ print("Lista 2: ", P2Lista)
 countries.countries = ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']
 p1, p2, p3, *scandic = countries.countries
 print(*scandic) 
+print("revisado")
