@@ -19,7 +19,7 @@ if 'skills' in profile:
 #and print out the result.
 if 'skills' in profile:
     if 'Python' in profile['skills']:
-        print['skills']
+        print('skills')
 
 #3  If a person skills has only JavaScript and React, print('He is a front end developer'), 
 # if the person skills has Node, Python, MongoDB, print('He is a backend developer'), 
@@ -36,5 +36,21 @@ if 'skills' in profile:
     else:
         print('unknown title')
 
+
 #4 If the person is married and if he lives in Finland, print the information in the following format:
 #Asabeneh Yetayeh lives in Finland. He is married.
+ # If the person is married and if he lives in Finland, print the information in the following format:
+    person02={
+    'first_name': 'Maria',
+    'last_name': '02',
+    'age': 18,
+    'country': 'Finland',
+    'is_marred': True,
+    'skills': ['Proteus', 'Python', 'JavaScript', 'Autocad','Fusion 360'],
+    'address': {
+        'street': 'Space street',
+        'zipcode': '02210'
+    }
+    }
+if person02['is_marred'] == True and person02['country'] == 'Finland':
+    print("Asabeneh Yetayeh lives in Finland and He is married")
