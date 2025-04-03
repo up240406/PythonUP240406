@@ -156,6 +156,6 @@ print("Lista 1: ", P1Lista)
 print("Lista 2: ", P2Lista)
 
 #31 ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']. Unpack the first three countries and the rest as scandic countries.
-paises.countries = ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']
-p1, p2, p3, *scandic = paises.countries
-print(*scandic)
+countries.countries = ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']
+p1, p2, p3, *scandic = countries.countries
+print(*scandic) 

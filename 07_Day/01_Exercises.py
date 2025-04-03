@@ -18,3 +18,5 @@ print(itCompanies.pop())
 #5 What is the difference between remove and discard
 #Si usando remove() el item no se encuentra en el set, arrojará error
 #En cambio discard no arrojará nada
+
+print("revisado")
