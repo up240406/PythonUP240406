@@ -47,3 +47,5 @@ for valor in the10:
     for idioma in dcIdm:
         if valor==dcIdm[idioma]:
             print(idioma,valor)
+
+print("Revisado")

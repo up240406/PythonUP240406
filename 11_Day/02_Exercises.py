@@ -87,3 +87,5 @@ def calStd(stt):
     st=stdev(vals)
     return f'The Standard deviation is {st}'
 print(calStd(vals))
+
+print("Revisado")

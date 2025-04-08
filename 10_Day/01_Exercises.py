@@ -57,3 +57,5 @@ if p % 2 == 0:
 #8 Use for loop to iterate from 0 to 100 and print only odd numbers
 for odd in range (0, 100, 2):
     print(odd)
+
+print("Revisado")

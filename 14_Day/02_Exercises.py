@@ -85,3 +85,5 @@ print ("Los primeros 10 paises son:", obtener_primeros_diez_paises(countries))
 def obtener_ultimos_diez_paises(countries):
     return countries[-10:]
 print ("Los ultimos 10 paises son:", obtener_ultimos_diez_paises(countries))
+
+print("Revisado")

@@ -54,3 +54,5 @@ if 'skills' in profile:
     }
 if person02['is_marred'] == True and person02['country'] == 'Finland':
     print("Asabeneh Yetayeh lives in Finland and He is married")
+
+print("Revisado")

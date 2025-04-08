@@ -46,3 +46,5 @@ if nuevaFruta not in frutas:
     print(frutas)
 else:
     print("La nueva fruta ya existe")
+
+print("Revisado")

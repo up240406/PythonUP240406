@@ -18,3 +18,5 @@ for M in range(1,101):
         Odds += M
 print('La suma de pares es: ',Evens)
 print('La suma de impares es: ',Odds)
+
+print("Revisado")
